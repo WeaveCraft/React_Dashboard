@@ -15,11 +15,18 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/">
-            <Route index element={<Home/>} />
-            <Route path="login" element={<Login/>} />
-            <Route path="list" element={<List/>} />
-            <Route path="new" element={<New/>} />
-            <Route path="single" element={<Single/>} />
+            <Route index element={<Home />} />
+            <Route path="login" element={<Login />} />
+            <Route path="transactions">
+              <Route index element={<List />} />
+              <Route path=":transactionsId" element={<Single />} />
+              <Route path="new" element={<New />} />
+            </Route>
+            <Route path="savings">
+              <Route index element={<List />} />
+              <Route path=":savingsId" element={<Single />} />
+              <Route path="new" element={<New />} />
+            </Route>
           </Route>
         </Routes>
       </BrowserRouter>
