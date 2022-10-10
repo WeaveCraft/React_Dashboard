@@ -18,23 +18,23 @@ export default function Navbar() {
         </div>
         <div className="items">
           <div className="item">
-            <LanguageIcon />
+            <LanguageIcon className="icon"/>
             English
           </div>
           <div className="item">
-            <DarkModeIcon />
+            <DarkModeIcon className="icon"/>
           </div>
           <div className="item">
-            <FullscreenIcon />
+            <FullscreenIcon className="icon"/>
           </div>
           <div className="item">
-            <CircleNotificationsIcon />
+            <CircleNotificationsIcon className="icon"/>
           </div>
           <div className="item">
-            <ChatIcon />
+            <ChatIcon className="icon"/>
           </div>
           <div className="item">
-            <ListIcon />
+            <ListIcon className="icon"/>
           </div>
         </div>
       </div>
