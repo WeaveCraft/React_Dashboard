@@ -52,11 +52,33 @@
                     color: #7451f8;
                 }
 
-                span{
+                .span{
                     font-size: 13px;
                     font-weight: 600;
                     color: #888;
                 }
+            }
+        }
+    }
+
+    .bottom{
+        display: flex;
+        margin: center;
+        align-items: center;
+
+        .colorOption{
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid #7451f8;
+            cursor: pointer;
+            margin: 5px;
+
+            &:nth-child(1){
+                background-color: whitesmoke;
+            }
+            &:nth-child(2){
+                background-color: #333;
             }
         }
     }
