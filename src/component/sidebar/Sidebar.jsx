@@ -1,7 +1,7 @@
 import "./sidebar.scss"
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
-import SavingsIcon from '@mui/icons-material/Savings';
+import RequestQuoteIcon from '@mui/icons-material/RequestQuote';
 import ViewKanbanIcon from '@mui/icons-material/ViewKanban';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import TextSnippetIcon from '@mui/icons-material/TextSnippet';
@@ -38,8 +38,8 @@ const Sidebar = () => {
                 </ul>
                 <ul>
                     <li>
-                        <SavingsIcon className="icon" />
-                        <span>Savings</span>
+                        <RequestQuoteIcon className="icon" />
+                        <span>Budget</span>
                     </li>
                 </ul>
                 <ul>

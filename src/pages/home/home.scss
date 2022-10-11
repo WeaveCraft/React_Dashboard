@@ -2,7 +2,12 @@
     display: flex;
 
     .homeContainer{
-        background-color: lightblue;
+        background-color: #e8f2fc;
         flex: 6;
+
+        .widgets{
+            display: flex;
+            padding: 20px;
+        }
     }
 }
