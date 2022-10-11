@@ -6,16 +6,17 @@ import Widget from "../../component/widget/Widget"
 const Home = () => {
     return (
         <div className="home">
-            <Sidebar/>
+            <Sidebar />
             <div className="homeContainer">
-                <Navbar/>
+                <Navbar />
                 <div className="widgets">
-                    <Widget/>
-                    <Widget/>
-                    <Widget/>
-                    <Widget/>
+                    <Widget type="expenses" />
+                    <Widget type="incomes" />
+                    <Widget type="transactions" />
+                    <Widget type="balance" />
+                    <Widget type="savings" />
                 </div>
-                </div>
+            </div>
         </div>
     )
 }
