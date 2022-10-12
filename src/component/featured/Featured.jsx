@@ -18,7 +18,7 @@ const Featured = () => {
         <CircularProgressbar value={70} text="70%" strokeWidth={6}/>
         </div>
         <p className="title">Total Purchases Made</p>
-        <p className="amount">$1252</p>
+        <p className="amount">$2.252</p>
         <p className="desc">Amount spent is considered above average.</p>
         <div className="summary">
           <div className="item">
@@ -29,7 +29,7 @@ const Featured = () => {
             </div>
           </div>
           <div className="item">
-            <div className="itemTitle">Medium</div>
+            <div className="itemTitle">Average</div>
             <div className="itemResult">
               <SentimentSatisfiedIcon fontSize="small" />
               <div className="resultAmount">$2.150</div>
