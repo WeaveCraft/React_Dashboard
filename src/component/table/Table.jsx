@@ -20,8 +20,8 @@ const List = () => {
     },
     {
       id: 2235235,
-      product: "Anniversary Gift",
-      customer: "Viktor Hurtig",
+      product: "WoW Spectral Tiger",
+      customer: "Axel Hernandez",
       date: "4 March",
       amount: "$900",
       method: "Online Payment",
