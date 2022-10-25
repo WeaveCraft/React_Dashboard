@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+A simple dashboard application using React with Javascript and scss.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot 2022-10-25 175220](https://user-images.githubusercontent.com/90194213/197822010-77ad45f6-ca7e-4e4e-9334-afdefa5d010a.png)
+
+
+
+
+
 
 ## Available Scripts
 
